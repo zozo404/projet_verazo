@@ -1,0 +1,160 @@
+/* font police */
+@font-face {
+    font-family: 'xbonesregular';
+    src: url('../fonts/xbones-webfont.woff2') format('woff2'),
+         url('../fonts/xbones-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    margin: 0;
+    /* background: rgb(2,0,36); COULEUR SI LE GRADIENT NE MARCHE PAS*/
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+}
+/* responsive mobile */
+.image-accueil-pirate{
+    width:100%
+}
+
+/*|||||||||||| NAVBAR MENU |||||||||||||||||||||| */
+.container-menu{
+    position: sticky;
+    top: -5px;
+    z-index: 100;
+}
+.menu{
+    font-family:'xbonesregular';
+    display: flex;
+    justify-content: space-around;
+    font-size: 27px;
+    align-items: baseline;
+}
+.menu p{
+    font-size: 32px;
+}
+.menu div a{
+    text-decoration: none;
+    color: black;
+    
+}
+.div-burger{
+    display: none;
+}
+.menu-accueil{
+    margin-left: 45px;
+}
+/* responsive */
+@media screen and (max-width:1150px) {
+    .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-login{
+        font-size: 17px;
+        transition: 0.5s;
+    }
+    .menu-accueil {
+        margin-left: 10px;
+    }
+}
+
+/*||||||||||||||| NAVBAR MENU FIN |||||||||||||||||||||*/
+
+/*||||||||||||||| BOUTON NAVBAR |||||||||||||||||||||*/
+
+#lienNav{
+    position: absolute;
+    text-decoration: none;
+    
+}
+
+.contener-carte{
+    display: flex;
+     position: relative;
+    background-image: url("carte.jpg");
+    width: 80%;
+    height: 30vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    top: 25vh;
+
+     display: none;
+}
+.accueil{
+    top: 0;
+    left: 0;
+}
+.présentation{
+    top: 0;
+    right: 0;
+}
+.news{
+    bottom: 0;
+    left: 0;
+}
+.classement{
+    bottom: 0;
+    right: 0;
+}
+.jeu{
+    top: 25%;
+    left: 35%;
+
+}
+.login{
+    bottom: 0;
+    left: 35%;
+}
+.img-nav{
+    width: 15%;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    right: 15px;
+    top: 20px;
+}
+
+.invisible{
+    height: 100vh;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    
+}
+
+.carte{
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 25%;
+}
+.img-nav{
+    display: none;
+}
+@media screen and (max-width:760px) {
+    .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-login{
+        display: none;
+    }
+    .img-nav{
+        display: block;
+    }
+}
+@media screen and (min-width:540px) {
+    
+    .img-nav{
+        top: 8px;
+        
+    }
+}
+@media screen and (min-width:280px) {
+    .img-nav{
+        width: 11%;
+
+    }
+}
+@media screen and (max-width:540px) {
+    .menu p {
+        font-size: 25px;
+    }
+}
+/*||||||||||||||| BOUTON NAVBAR FIN |||||||||||||||||||||*/
