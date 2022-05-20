@@ -1,4 +1,4 @@
-       let carte = document.querySelector(".contener-carte");
+       let carte = document.querySelector(".container-carte");
        let imgNav = document.querySelector(".img-nav");
        let invisible = document.querySelector(".invisible");
 

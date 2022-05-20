@@ -62,13 +62,13 @@ body{
 
 /*||||||||||||||| BOUTON NAVBAR |||||||||||||||||||||*/
 
-#lienNav{
+.lienNav{
     position: absolute;
     text-decoration: none;
     
 }
 
-.contener-carte{
+.container-carte{
     display: flex;
      position: relative;
     background-image: url("carte.jpg");
