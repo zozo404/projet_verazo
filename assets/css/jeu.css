@@ -1,0 +1,52 @@
+.contener-mid-jeu{
+    display: flex;
+     align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+
+}
+.image-jeu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bouton-jouer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bouton-jeu{
+    width: 40%;
+    font-size: 30px;
+    border:solid green 6px;
+    background-color: rgb(109, 236, 109);
+}
+
+.bouton-jeu:hover{
+    transition: 1s;
+    border: solid green 2px;
+}
+.contener-description-jeu{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width: 80%;
+}
+
+.contener-note{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nes-icon{
+    cursor: pointer;
+}
+
+body{
+    cursor: auto;
+}
