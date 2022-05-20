@@ -31,6 +31,7 @@ body{
     justify-content: space-around;
     font-size: 27px;
     align-items: baseline;
+    background-color: #01b4eac9;
 }
 .menu p{
     font-size: 32px;

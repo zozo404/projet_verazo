@@ -1,11 +1,26 @@
 /* PROFIL PRESENTATION !!!!!!!!!!!!!!!!!!!!!!!!*/
+.presentation-body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 21px;
+    padding-bottom: 25px;
+}
+.presentation-bloc-texte{
+    padding-bottom: 25px;
+}
 .presentation-texte{
     margin-right: 20px;
     text-align: justify;
     margin-left: 20px;
 }
 .presentation-bloc-personne, .presentation-haut p{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+.presentation-haut p{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .presentation-haut{
     font-size: 30px;
@@ -17,3 +32,16 @@
     width: 130px;
 }
 /* FIN PROFIL PRESENTATION !!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* PRESENTATION RESPONSIVE !!!!!!!!!!!*/
+@media screen and (min-width:761px) {
+    .presentation-bloc-personne{
+        text-align: initial;
+    }
+    .presentation-bloc-personne{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+}
