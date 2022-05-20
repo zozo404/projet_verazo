@@ -1,0 +1,19 @@
+/* PROFIL PRESENTATION !!!!!!!!!!!!!!!!!!!!!!!!*/
+.presentation-texte{
+    margin-right: 20px;
+    text-align: justify;
+    margin-left: 20px;
+}
+.presentation-bloc-personne, .presentation-haut p{
+    text-align: center;
+}
+.presentation-haut{
+    font-size: 30px;
+    background-color: rgb(255, 0, 242);
+    font-family:'xbonesregular';
+}
+.presentation-personne-image img{
+    border-radius: 50%;
+    width: 130px;
+}
+/* FIN PROFIL PRESENTATION !!!!!!!!!!!!!!!!!!!!!!!!*/
