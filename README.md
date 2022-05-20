@@ -7,3 +7,4 @@ Site web qui possède un système de news et de classement en rapport aux jeux d
 
 - [@zozo404](https://github.com/zozo404)
 - [@rayandrmn](https://github.com/rayandrmn)
+- [@VeroBorealys](https://github.com/VeroBorealys)
