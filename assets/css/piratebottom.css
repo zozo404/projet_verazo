@@ -1,3 +1,5 @@
+
+/* CSS A CORRIGER POUR IMPLANTATION DANS INDEX.CSS */
 *{
 
     margin: 0;
@@ -6,8 +8,8 @@
     
     
     
-    }*
-
+}
+/* FIN CODE A CORRIGER */
 
 .bottom_container{
 
@@ -303,7 +305,7 @@ padding: 5px;
 
 }
 
-.classement_pieceqté{
+.classement_pieceqte{
 
     font-weight: bold;
     font-size: 1.1em;
