@@ -39,7 +39,7 @@
 /* PRESENTATION RESPONSIVE !!!!!!!!!!!*/
 @media screen and (min-width:761px) {
     .presentation-bloc-personne{
-        text-align: initial;
+        text-align: center;
     }
     .presentation-bloc-personne{
         display: flex;
