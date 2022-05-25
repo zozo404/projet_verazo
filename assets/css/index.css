@@ -133,6 +133,8 @@ body{
 .img-nav{
     display: none;
 }
+/* version pc / ipad  */
+
 @media screen and (max-width:760px) {
     .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-login{
         display: none;
@@ -188,6 +190,7 @@ hr{
     margin-right: 20px;
     line-height: 20px;
 }
+/* version pc / ipad  */
 @media screen and (min-width:760px) {
     .container-body-haut, .container-body-milieu, .container-body-bas{
         flex-direction: row;
