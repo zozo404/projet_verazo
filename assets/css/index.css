@@ -200,4 +200,7 @@ hr{
     .container-jeu-image{
         width: 41%;
     }
+    .container-body-milieu{
+        flex-direction: row-reverse;
+    }
 }
