@@ -16,7 +16,7 @@
 .presentation-bloc-personne, .presentation-haut p{
     display: flex;
     flex-direction: column;
-    align-items: center;;
+    align-items: center;
 }
 .presentation-bloc-personne{
     text-align: center;
