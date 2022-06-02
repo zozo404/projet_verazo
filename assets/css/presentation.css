@@ -24,10 +24,11 @@
 .presentation-haut p{
     padding-top: 50px;
     padding-bottom: 50px;
+    font-size: 25px;
 }
 .presentation-haut{
     font-size: 30px;
-    background-color: rgb(255, 0, 242);
+    color: white;
     font-family:'xbonesregular';
 }
 .presentation-personne-image img{
@@ -46,5 +47,8 @@
         justify-content: space-evenly;
         flex-direction: row;
         margin-top: 50px;
+    }
+    .presentation-haut p{
+        font-size: inherit;
     }
 }
