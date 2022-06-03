@@ -1,3 +1,5 @@
+
+/* CSS A CORRIGER POUR IMPLANTATION DANS INDEX.CSS */
 *{
 
     margin: 0;
@@ -6,8 +8,8 @@
     
     
     
-    }*
-
+}
+/* FIN CODE A CORRIGER */
 
 .bottom_container{
 
@@ -303,7 +305,7 @@ padding: 5px;
 
 }
 
-.classement_pieceqté{
+.classement_pieceqte{
 
     font-weight: bold;
     font-size: 1.1em;
@@ -378,26 +380,21 @@ font-family: 'Merriweather Sans', sans-serif;
 .footer_container{
 
     width: 100%;
-    background-color: #E5E5E5;
+    display: flex;
+    background-color: #A3A3A3;
     border: 1px solid black;
     display: flex;
-    margin: 5px;
+    margin-top: 20px;
+    
 
 }
 
 
-.footer_blocgauche{
-
-width: 48%;
-border: 1px solid black;
-
-
-
-}
 
 .footer_blocdroit{
 
-width: 50%;
+width: 100%;
+margin: 20px;
 
 
 
@@ -408,7 +405,7 @@ width: 50%;
 
 display: flex;
 justify-content: center;
-margin: 30px;
+margin: 50px;
 
 }
 
@@ -432,8 +429,10 @@ justify-content: space-evenly;
 
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
 border: 1px solid green;
-width: 55%;
+
 
 
 }
@@ -441,46 +440,69 @@ width: 55%;
 
 
 
-.formbody{
+.formpart{
 
-    background-color: #171717;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
-    
-    
-    
-    }
-    
-    .form1{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 10px;
-    width: 100%;
-    
-    
-    
-    }
-    
-    .formpart{
-    
-    display: flex;
     margin-bottom: 20px;
     
     
+    
     }
+
     
-    input{
     
-    width: 300px;
+input{
+    
+    width: 400px;
     height: 25px;
-    border: 1px solid #9A9A9B;
+    overflow: visible;
+    padding: 0 35px;
+    display: flex;
     
-    }
     
     
+}
+    
+ 
+       
+
+.form_champ{
+
+    border-radius: 31px; 
+    background-color: #F5F5F5; 
+    height: 40px;
+    font-family: Ubuntu-Bold;
+    font-size: 18px;
+    color: #8f8fa1;
+    line-height: 1.2;
+    padding: 5px 25px 0;
+    outline: none;
+    border: none;
+   
+}
+
+
+
+    
+.form_txt{
+
+    display: flex;
+    font-family: Ubuntu-Bold;
+    font-size: 18px;
+    color: #8f8fa1;
+    line-height: 1.2;
+    min-height: 169px;
+    padding: 10px 25px 0;
+}
+
+
+    
+ 
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
