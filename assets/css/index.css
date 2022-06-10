@@ -447,97 +447,12 @@ padding: 5px;
 
 
 
-/***** leaderbord right*****/
+/***** leaderbord right classement *****/
 
-
-
-.classement_cadrinfo{
-
-    display: flex;
-    justify-content: space-evenly;
-    height: 65px;
-    width: 85%;
-    margin: 2px;
-
+.classement{
+    background-color: white;
+    border-radius: 10px;
 }
-
-.classement_point{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 45%;
-    margin: 2px;
-
-
-
-}
-
-
-.classement_piecesor{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 60%;
-    /*margin: 2px;*/
-
-
-
-}
-
-.classement_pieceqte{
-
-    font-weight: bold;
-    font-size: 1.1em;
-    font-family: 'Merriweather Sans', sans-serif;
-
-
-}
-
-
-.classement_po{
-
-text-align: center;
-font-family: 'Merriweather Sans', sans-serif;
-
-
-
-}
-
-
-
-
-/***** Bloc jeu icone ****/
-
-.classement_jeu{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 47%;
-    gap: 5px;
-
-
-}
-.classement-jeu-image{
-    margin: 0 auto;
-    width: 25px;
-}
-
-.classement_blocjeu{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 2px;
- 
-}
-
-
 
 
 
