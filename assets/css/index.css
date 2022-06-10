@@ -27,7 +27,7 @@ body{
     z-index: 100;
 }
 .menu{
-    font-family:'xbonesregular';
+
     display: flex;
     justify-content: space-around;
     font-size: 27px;
@@ -241,13 +241,15 @@ hr{
 }
 
 /* News du site*/
-.bottom_container h1{
+.bottom_container h1, .titre-classement{
     color: white;
     text-align: center;
-    font-family:'xbonesregular';
     letter-spacing: 2px;
+    font-size: 2em;
 }
-
+.font-xbones{
+    font-family: 'xbonesregular';
+}
 .nc_news{
     display: flex;
     flex-direction: column;
@@ -315,135 +317,13 @@ padding: 5px;
 
 
 /***** leaderbord left*****/
-
-
-.classement_user{
-
-      
+.nc-classement{
+    gap: 20px;
     display: flex;
-    justify-content: space-evenly;
-    height: 65px;
-    width: 44%;
-    margin: 2px;
-
-}
-.classement-username{
-    position: relative;
-    top: 38px;
-    right: 35px;
-}
-.user-pseudo{
-    position: relative;
-    top: -10px;
-    left: 35px;
-    font-weight: bold;
-}
-.classement_blocavatar{
-
-   
-    display: flex;
-    justify-content: center;
-    width: 30%;
-    height: 60px;
-    margin: 3px;
-
-    
-}
-
-
-.classement_cadravatar{
-    display: flex;
-    width: 100%;
-    height: 55px;
-    margin: 3px;
-    
-}
-
-.classement_avatar{
-
-    border-radius: 50px;
-    margin: 6px;
-    position: relative;
-    right: 4px;
-}
-
-
-.classement_blocpseudo{
-
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 60px;
-    margin: 2px;
-
-
-
-}
-
-
-.classement_pseudo{
-
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 95%;
-    height: 55px;
-    margin: 2px;
-
-
+    margin-bottom: 5%;
 }
 
-.classement-name{
-    position: relative;
-    left: 2px;
-    font-weight: bold;
-    font-size: 1.1em;
-    font-family: 'Merriweather Sans', sans-serif;
-
-}
-
-
-
-.classement_blocrank{
-
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 33%;
-    height: 60px;
-    margin: 2px;
-
-}
-
-
-
-.classement_rank{
-
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 60%;
-    height: 55px;
-    margin: 2px;
-
-}
-
-
-.classement-rank1{
-    font-weight: bold;
-    font-family: 'Merriweather Sans', sans-serif;
-    position: relative;
-    right: 16px;
-    font-size: 17px;
-
-}
 
 
 
@@ -466,8 +346,23 @@ padding: 5px;
     width: 35px;
     border-radius: 50%;
 }
-
-
+.div-jeux img{
+    width: 30px;
+}
+.div-jeux{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.div-numero, .div-or{
+    padding-right: 15px;
+}
+.div-or b{
+    font-size: 20px;
+}
+.div-or p{
+    text-align: center;
+}
 /* ---- contact ---- */
 
 
