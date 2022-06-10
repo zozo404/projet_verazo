@@ -165,6 +165,7 @@ body{
 hr{
     width: 30%;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 /* ||||||||||||| BODY  |||||||||||||||||||||||||||||||||| */
 .image-jeu{
@@ -227,6 +228,12 @@ hr{
 
 }
 
+.classement_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
 .nc_text{
 
     text-align: justify;
@@ -242,15 +249,11 @@ hr{
 }
 
 .nc_news{
-
-    background-color: #A3A3A3;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    
-
-
 }
 
 
@@ -272,7 +275,6 @@ hr{
 
 
 .nc_bloctxt{
-
 width: 80%;
 display: flex;
 margin: 30px;
@@ -290,15 +292,6 @@ padding: 5px;
 
 
 
-.classement_container{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    
-}
 .classement_leaderbord p{
     margin: 0 auto;
 }
@@ -316,7 +309,6 @@ padding: 5px;
     border-radius: 6px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 27px;
     
     
 }
@@ -335,8 +327,17 @@ padding: 5px;
     margin: 2px;
 
 }
-
-
+.classement-username{
+    position: relative;
+    top: 38px;
+    right: 35px;
+}
+.user-pseudo{
+    position: relative;
+    top: -10px;
+    left: 35px;
+    font-weight: bold;
+}
 .classement_blocavatar{
 
    
@@ -351,10 +352,7 @@ padding: 5px;
 
 
 .classement_cadravatar{
-
-    
     display: flex;
-    justify-content: center;
     width: 100%;
     height: 55px;
     margin: 3px;
@@ -364,10 +362,9 @@ padding: 5px;
 .classement_avatar{
 
     border-radius: 50px;
-    margin: 2px;
-
-
-
+    margin: 6px;
+    position: relative;
+    right: 4px;
 }
 
 
@@ -401,13 +398,11 @@ padding: 5px;
 }
 
 .classement-name{
-
+    position: relative;
+    left: 2px;
     font-weight: bold;
     font-size: 1.1em;
     font-family: 'Merriweather Sans', sans-serif;
-
-
-
 
 }
 
@@ -422,9 +417,6 @@ padding: 5px;
     width: 33%;
     height: 60px;
     margin: 2px;
-
-
-
 
 }
 
@@ -441,16 +433,15 @@ padding: 5px;
     height: 55px;
     margin: 2px;
 
-
 }
 
 
 .classement-rank1{
-
     font-weight: bold;
-    font-size: 1.1em;
     font-family: 'Merriweather Sans', sans-serif;
-
+    position: relative;
+    right: 16px;
+    font-size: 17px;
 
 }
 
@@ -490,7 +481,7 @@ padding: 5px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 60%;
     /*margin: 2px;*/
 
 
@@ -554,7 +545,7 @@ font-family: 'Merriweather Sans', sans-serif;
 
 
 
-/* ---- Footer ---- */
+/* ---- contact ---- */
 
 
 .footer_container{
@@ -661,4 +652,28 @@ input{
 textarea {
     overflow: auto;
     resize: vertical;
+}
+
+/* footer */
+
+.footer-general{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-general hr{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footer-div-bas{
+    display: flex;
+    gap: 3px;
+    margin-top: 10px;
+}
+.footer-div-bas img{
+    height: 25px;
+    width: 25px;
 }
