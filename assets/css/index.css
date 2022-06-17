@@ -336,7 +336,7 @@ padding: 5px;
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
-    justify-content:space-around;
+    justify-content:space-between;
    
 }
 
@@ -350,6 +350,7 @@ padding: 5px;
 }
 .div-jeux a img{
     width: 30px;
+    height: 30px;
 }
 .div-jeux{
     display: flex;
@@ -407,7 +408,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 15px;
-border: 1px solid white;
 padding: 10px;
 border-radius: 10px;
 
@@ -442,14 +442,17 @@ input{
     border-radius: 31px; 
     background-color: #F5F5F5; 
     height: 40px;
-    font-family: Ubuntu-Bold;
+    /* font-family: Ubuntu-Bold; */
     font-size: 18px;
-    color: #8f8fa1;
+    color: #000000;
     line-height: 1.2;
     padding: 5px 15px 0;
     outline: none;
     border: none;
    
+}
+.ubuntu-bold{
+    font-family: Ubuntu-Bold;
 }
 
 .form-champ-btn{
@@ -460,7 +463,7 @@ input{
 .form_txt{
     font-family: Ubuntu-Bold;
     font-size: 18px;
-    color: #8f8fa1;
+    color: #000000;
     line-height: 1.2;
     min-height: 169px;
     padding: 10px 25px 0;
@@ -507,13 +510,10 @@ textarea {
     .div-jeux{
         flex-direction: row;
     }
-    .div-jeux a img{
-        width: 50px;
-    }
     .div-numero p, .div-numero b{
         font-size: 20px;
     }
-    .div-joueur img{
+    .div-joueur img, .div-jeux a img{
         width: 50px;
         height: 50px;
     }
