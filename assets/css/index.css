@@ -32,7 +32,7 @@ body{
     justify-content: space-around;
     font-size: 27px;
     align-items: baseline;
-    background-color: #01b4eac9;
+    background-color: #01b4ea;
 }
 .menu p{
     font-size: 32px;
@@ -336,6 +336,7 @@ padding: 5px;
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    justify-content:space-around;
    
 }
 
@@ -344,9 +345,10 @@ padding: 5px;
 }
 .div-joueur img{
     width: 35px;
+    height: 35px;
     border-radius: 50%;
 }
-.div-jeux img{
+.div-jeux a img{
     width: 30px;
 }
 .div-jeux{
@@ -403,9 +405,11 @@ justify-content: space-evenly;
 
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
 gap: 15px;
+border: 1px solid white;
+padding: 10px;
+border-radius: 10px;
 
 
 }
@@ -454,8 +458,6 @@ input{
 
     
 .form_txt{
-
-    display: flex;
     font-family: Ubuntu-Bold;
     font-size: 18px;
     color: #8f8fa1;
@@ -481,6 +483,7 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 }
 .footer-general hr{
     margin-top: auto;
@@ -494,4 +497,24 @@ textarea {
 .footer-div-bas img{
     height: 25px;
     width: 25px;
+}
+
+/* responsive */
+@media screen and (min-width:653px) {
+    .nc-classement{
+        width: 80%;
+    }
+    .div-jeux{
+        flex-direction: row;
+    }
+    .div-jeux a img{
+        width: 50px;
+    }
+    .div-numero p, .div-numero b{
+        font-size: 20px;
+    }
+    .div-joueur img{
+        width: 50px;
+        height: 50px;
+    }
 }
