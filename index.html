@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <script src="./assets/js/app.js"></script>
     <link rel="icon" type="image/png" href="img/pirate-zoom.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     
 </head>
 <body>
-    <div class="general">
+    <div id="Accueil" class="general">
             <!-- top du site / menu navbar / header ||||||||||||-->
         <header class="container-menu">
             <div class="menu font-xbones">
                 <p>Verazo island</p>
-                <div class="menu-accueil"><a href="index.html">Accueil</a></div>
+                <div class="menu-accueil"><a href="#Accueil">Accueil</a></div>
                 <div class="menu-jeux"><a href="jeux.html">Jeux</a></div>
                 <div class="menu-presentation"><a href="presentation.html">Présentation</a></div>
-                <div class="menu-news"><a href="news.html">News</a></div>
-                <div class="menu-classement"><a href="classement.html">Classement</a></div>
+                <div class="menu-news"><a href="#News">News</a></div>
+                <div class="menu-classement"><a href="#Classement">Classement</a></div>
                 <div class="menu-login"><a href="">Login</a></div>
 
                 <!--  ||||  BOUTON NAVBAR |||||| -->
@@ -29,12 +30,12 @@
                     <img class="img-nav" src="./img/crane-de-pirate.png">
             
                     <div class="container-carte">
-                    <a id="" class="accueil lienNav" href="">accueil</a>
+                    <a id="" class="accueil lienNav" href="#Accueil">accueil</a>
                     <a id="" class="jeu lienNav" href="">jeu</a>
                     <a id="" class="présentation lienNav" href="">présentation</a>
-                    <a id="" class="news lienNav" href="">news</a>
+                    <a id="" class="news lienNav" href="#News">news</a>
                     <a id="" class="login lienNav" href="">login</a>
-                    <a id="" class="classement lienNav" href="">classement</a>
+                    <a id="" class="classement lienNav" href="#Classement">classement</a>
                     </div>
                     <div class="invisible"></div>
                 </div>
@@ -44,7 +45,7 @@
             <!-- FIN top du site / menu navbar / header ||||||||||||-->
         
         <!-- image d'accueil -->
-        <div class="image-accueil">
+        <div id="Accueil" class="image-accueil">
             <img class="image-accueil-pirate" src="./img/pirate.jpg">
         </div>
 
@@ -83,10 +84,10 @@
 
                  <!-- FIN GENERATION EN PHP / FOREACH -->
             </div>
-            <hr>
+            <hr id="News">
 
             <!-- NEWS + Classement -->
-            <div class="bottom_container">
+            <div class="bottom_container margin-news">
                 <h1 class="font-xbones">News</h1>
                 
 
@@ -120,13 +121,13 @@
                         </div>
                     
                     </section>
-                    <hr>
+                    <hr id="Classement">
 
 
             <!-- !!!!!!!!!!!! -->
                         
 
-                    <section class="nc-classement">
+                    <section class="nc-classement margin-classement">
                         <h1 class="titre-classement font-xbones">Classement</h1>
 
                         <div class="classement classement-premier">
@@ -231,17 +232,17 @@
                         <form class="footer_formulaire">
 
                             <div class="formpart">
-                                <input class="form_champ ubuntu-bold" type="text" placeholder="Votre nom" >
+                                <input class="form_champ form-contact ubuntu-bold" type="text" placeholder="Votre nom" >
                             </div>
 
 
 
                             <div class="formpart ">
-                                <input class="form_champ ubuntu-bold" type="text"  placeholder="Votre email">
+                                <input class="form_champ form-contact ubuntu-bold" type="text"  placeholder="Votre email">
                             </div>
 
                             <div class="formpart">
-                                <textarea class="form_txt ubuntu-bold"  placeholder="Votre message"></textarea>
+                                <textarea class="form_txt ubuntu-bold"  placeholder="Votre message"  ></textarea>
                             </div>
 
                             <div class="formpart" id="form_btn">

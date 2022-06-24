@@ -474,7 +474,7 @@ input{
  
 textarea {
     overflow: auto;
-    resize: vertical;
+    resize: both;
 }
 
 /* footer */
@@ -507,6 +507,12 @@ textarea {
     .nc-classement{
         width: 80%;
     }
+    .margin-classement{
+        margin-top: 50px;
+    }
+    .margin-news{
+        margin-top: 105px;
+    }
     .div-jeux{
         flex-direction: row;
     }
@@ -516,5 +522,13 @@ textarea {
     .div-joueur img, .div-jeux a img{
         width: 50px;
         height: 50px;
+    }
+    .form_txt, .form-contact{
+        width: 140%;
+        position: relative;
+        right: 70px;
+    }
+    .form-contact{
+        width: 149%;
     }
 }
