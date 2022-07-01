@@ -1,0 +1,37 @@
+jeu de simulation déquipage pirate{
+
+    une map{
+        map generé ou pas ? 
+    }
+
+    systeme economic{
+        farm gold 
+    }
+
+    systeme xp{
+        faire grandir son bateau/equipage{
+            scale avec les gold 
+            lvl 1 < barque 
+            lvl 5 < petit bateau
+            lvl 10 < bateau pirate
+
+        }
+        réputation
+    }
+
+    systeme de bataille navale{
+        simulation de combat pirate
+    }
+
+    systeme de farm{
+        peche
+        vol
+
+    }
+
+    carte au trésors{
+        petite quete pour butin
+    }
+}
+
+
