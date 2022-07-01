@@ -12,16 +12,16 @@
 
 </head>
 <body>
-    <div class="general">
-        <header class="container-menu">
+    <div id="Accueil" class="general">
+        <header class="container-menu font-xbones">
             <div class="menu">
                 <p>Verazo island</p>
             <!-- top du site / menu navbar / header -->
                 <div class="menu-accueil"><a href="index.html">Accueil</a></div>
                 <div class="menu-jeux"><a href="jeux.html">Jeux</a></div>
                 <div class="menu-presentation"><a href="presentation.html">Présentation</a></div>
-                <div class="menu-news"><a href="news.html">News</a></div>
-                <div class="menu-classement"><a href="classement.html">Classement</a></div>
+                <div class="menu-news"><a href="index.html #News">News</a></div>
+                <div class="menu-classement"><a href="index.html #Classement">Classement</a></div>
                 <div class="menu-login"><a href="">Login</a></div>
 
                 <!--  ||||  BOUTON NAVBAR |||||| -->
@@ -29,19 +29,18 @@
                     <img class="img-nav" src="./img/crane-de-pirate.png">
             
                     <div class="container-carte">
-                    <a id="lienNav" class="accueil" href="">accueil</a>
+                    <a id="lienNav" class="accueil" href="index.html">accueil</a>
                     <a id="lienNav" class="jeu" href="">jeu</a>
                     <a id="lienNav" class="présentation" href="">présentation</a>
-                    <a id="lienNav" class="news" href="">news</a>
+                    <a id="lienNav" class="news" href="index.html #News">news</a>
                     <a id="lienNav" class="login" href="">login</a>
-                    <a id="lienNav" class="classement" href="">classement</a>
+                    <a id="lienNav" class="classement" href="index.html #Classement">classement</a>
                     </div>
                     <div class="invisible"></div>
                 </div>
             </div>
             
         </header>
-        <body>
             <div class="presentation-haut">
                 <p>
                     Qui sommes-nous ?
@@ -60,7 +59,7 @@
                             <img src="./img/big.png">
                         </div>
                         <div class="presentation-personne-texte">
-                            <p class="personne-texte">Je suis Enzo</p>
+                            <p class="personne-texte">Je suis <span class="font-xbones">Enzo</span></p>
                         </div>
                     </div>
                     <div class="presentation-bloc-personne2">
@@ -68,7 +67,7 @@
                             <img src="./img/big.png">
                         </div>
                         <div class="presentation-personne-texte">
-                            <p class="">Je suis Rayan</p>
+                            <p class="">Je suis <span class="font-xbones">Rayan</span></p>
                         </div>
                     </div>
                     <div class="presentation-bloc-personne3">
@@ -76,13 +75,24 @@
                             <img src="./img/big.png">
                         </div>
                         <div class="presentation-personne-texte">
-                            <p class="">Je suis Véronique</p>
+                            <p class="">Je suis <span class="font-xbones">Véronique</span></p>
                         </div>
                     </div>
                     <!-- FIN PHP FOREACH -->
                 </div>
             </div>
-        </body>
+            
+            <footer class="footer-general">
+                <div class="footer-div-haut">
+                <div class="footer-div-haut"></div>
+                    <p class="copyright">&copy; Projet Verazo</p>
+                </div>
+                <hr>
+                <div class="footer-div-bas">
+                    <img src="./img/logo insta.png" alt="logo insta">
+                    <img src="./img/twitter.png" alt="logo twitter">
+                </div>
+            </footer>
 
 
     </div>
