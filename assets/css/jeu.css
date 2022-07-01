@@ -54,8 +54,36 @@ body{
 .fond{
     height: 100vh;
     width: 100%;
-    background-color: red;
     position: fixed;
     top: 0px;
-    z-index: 50;
+    z-index: 5;
+    background-color: black;
+    opacity: 0.9;
+    display: none;
+      
+}
+.ecrans-jeu{
+    height: 70vh;
+    width: 1250px;
+    position: sticky;
+    background-color: red;
+    bottom: 10%;
+     display: none;
+    z-index: 300;
+
+}
+
+.ecrans-jeu-contener{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 300;
+}
+
+.croix{
+    position: absolute;
+    height: 10%;
+    right: 0;
+    z-index: 300;
+    cursor: pointer;
 }
