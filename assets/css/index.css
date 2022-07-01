@@ -27,12 +27,12 @@ body{
     z-index: 100;
 }
 .menu{
-    font-family:'xbonesregular';
+
     display: flex;
     justify-content: space-around;
     font-size: 27px;
     align-items: baseline;
-    background-color: #01b4eac9;
+    background-color: #01b4ea;
 }
 .menu p{
     font-size: 32px;
@@ -165,6 +165,7 @@ body{
 hr{
     width: 30%;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 /* ||||||||||||| BODY  |||||||||||||||||||||||||||||||||| */
 .image-jeu{
@@ -205,5 +206,329 @@ hr{
     }
     .container-body-milieu{
         flex-direction: row-reverse;
+    }
+}
+
+/* CSS A CORRIGER POUR IMPLANTATION DANS INDEX.CSS */
+
+/* FIN CODE A CORRIGER */
+
+
+
+
+.nc_container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+
+}
+
+.classement_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.nc_text{
+
+    text-align: justify;
+
+}
+
+/* News du site*/
+.bottom_container h1, .titre-classement{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+.font-xbones{
+    font-family: 'xbonesregular';
+}
+.nc_news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+.nc_blocnews{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+
+
+}
+
+
+
+.nc_bloctxt{
+width: 80%;
+display: flex;
+margin: 30px;
+padding: 5px;
+
+
+}
+
+
+
+
+
+
+/*Classement du site*/
+
+
+
+.classement_leaderbord p{
+    margin: 0 auto;
+}
+.classement_leaderbord{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #F2F2F2;
+    /* enlever quand on mettra foreach */
+    width: 80%;
+    /*  */
+    height: 70px;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+
+
+/***** leaderbord left*****/
+.nc-classement{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+
+
+
+/***** leaderbord right classement *****/
+
+.classement{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content:space-between;
+   
+}
+
+.nom-joueur{
+    font-weight: bold;
+}
+.div-joueur img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.div-jeux a img{
+    width: 30px;
+    height: 30px;
+}
+.div-jeux{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.div-numero, .div-or{
+    padding-right: 15px;
+}
+.div-or b{
+    font-size: 20px;
+}
+.div-or p{
+    text-align: center;
+}
+/* ---- contact ---- */
+
+
+.footer_container{
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+.footer_titrebloc1{
+
+display: flex;
+justify-content: center;
+margin: 50px;
+
+}
+
+
+
+
+
+/************ formulaire contact *****/
+
+.footer_formbloc{
+
+display: flex;
+justify-content: space-evenly;
+
+
+}
+
+
+.footer_formulaire{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+padding: 10px;
+border-radius: 10px;
+
+
+}
+
+
+.footer_blocform{
+    color: white;
+    font-family:'xbonesregular';
+    letter-spacing: 2px;
+}
+    
+    
+input{
+    
+    /* width: 400px; */
+    height: 25px;
+    overflow: visible;
+    padding: 0 35px;
+    display: flex;
+    
+    
+    
+}
+    
+ 
+       
+
+.form_champ{
+
+    border-radius: 31px; 
+    background-color: #F5F5F5; 
+    height: 40px;
+    /* font-family: Ubuntu-Bold; */
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.2;
+    padding: 5px 15px 0;
+    outline: none;
+    border: none;
+   
+}
+.ubuntu-bold{
+    font-family: Ubuntu-Bold;
+}
+
+.form-champ-btn{
+    margin-bottom: 15px;
+}
+
+    
+.form_txt{
+    font-family: Ubuntu-Bold;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.2;
+    min-height: 169px;
+    padding: 10px 25px 0;
+    background-color: #F5F5F5; border-radius: 31px; height: 200px;
+}
+
+    
+ 
+textarea {
+    overflow: auto;
+    resize: both;
+}
+
+/* footer */
+
+.footer-general{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-general hr{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footer-div-bas{
+    display: flex;
+    gap: 3px;
+    margin-top: 10px;
+}
+.footer-div-bas img{
+    height: 25px;
+    width: 25px;
+}
+
+/* responsive */
+@media screen and (min-width:653px) {
+    .nc-classement{
+        width: 80%;
+    }
+    .margin-classement{
+        margin-top: 50px;
+    }
+    .margin-news{
+        margin-top: 105px;
+    }
+    .div-jeux{
+        flex-direction: row;
+    }
+    .div-numero p, .div-numero b{
+        font-size: 20px;
+    }
+    .div-joueur img, .div-jeux a img{
+        width: 50px;
+        height: 50px;
+    }
+    .form_txt, .form-contact{
+        width: 140%;
+        position: relative;
+        right: 70px;
+    }
+    .form-contact{
+        width: 149%;
     }
 }
