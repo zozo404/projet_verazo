@@ -67,7 +67,9 @@
 	width: 100%;
 	left: 0;
 }
-
+a{
+	text-decoration: none;
+}
 @media screen and (min-width:760px) {
     .jeux-hr{
         display: none;
