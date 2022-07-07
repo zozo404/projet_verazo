@@ -17,7 +17,7 @@ if (isset($_POST["formText"])) {
         $entete .= "From: verazosengo@gmail.com" . "\r\n";
         $entete .= 'Reply-to: ' . $_POST['email'];
 
-        $message = '<h2>Message envoyé depuis le formulaire contact de zozoy.fr</h2>
+        $message = '<h2>Message envoyé depuis le formulaire contact de verazo island</h2>
         <p style="font-size:17px;"><b>Nom: </b>'. $_POST['name'].'<br>
         <p style="font-size:17px;"><b>Email: </b>' . $_POST['email'] . '<br>
         <br>
