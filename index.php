@@ -27,6 +27,7 @@ require 'mail.php';
                 <div class="menu-presentation"><a href="presentation.php">Présentation</a></div>
                 <div class="menu-news"><a href="#News">News</a></div>
                 <div class="menu-classement"><a href="#Classement">Classement</a></div>
+                <div class="menu-contact"><a href="#Contact">Conctact</a></div>
                 <div class="menu-login"><a href="connexion.php" target="_blank">Login</a></div>
 
                 <!--  ||||  BOUTON NAVBAR |||||| -->
@@ -38,8 +39,9 @@ require 'mail.php';
                     <a id="" class="jeu lienNav" href="jeux.php">jeu</a>
                     <a id="" class="présentation lienNav" href="présentation.php">présentation</a>
                     <a id="" class="news lienNav" href="#News">news</a>
-                    <a id="" class="login lienNav" href="connexion.php">login</a>
                     <a id="" class="classement lienNav" href="#Classement">classement</a>
+                    <a id="" class="contact lienNav" href="#Contact">Contact</a>
+                    <a id="" class="login lienNav" href="connexion.php">login</a>
                     </div>
                     <div class="invisible"></div>
                 </div>
@@ -219,7 +221,7 @@ require 'mail.php';
             <hr>
 
             <!-- partie contact formulaire  -->
-            <div class="footer_container">
+            <div id="Contact" class="footer_container">
 
 
 

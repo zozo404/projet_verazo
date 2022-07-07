@@ -50,7 +50,7 @@ body{
 }
 /* responsive */
 @media screen and (max-width:1150px) {
-    .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-login{
+    .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-contact, .menu-login{
         font-size: 17px;
         transition: 0.5s;
     }
@@ -93,10 +93,11 @@ body{
     bottom: 0;
     left: 0;
 }
-.classement{
+.classement, .contact{
     bottom: 0;
     right: 0;
 }
+
 .jeu{
     top: 25%;
     left: 35%;
@@ -136,7 +137,7 @@ body{
 /* version pc / ipad  */
 
 @media screen and (max-width:760px) {
-    .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-login{
+    .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-contact, .menu-login{
         display: none;
     }
     .img-nav{

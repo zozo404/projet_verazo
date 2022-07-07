@@ -50,7 +50,7 @@
                 <p class="presentation-titre">
                     Choisissez l'épreuve que vous voulez faire 
                     <span class="skull-size">
-                        }
+                        O
                     </span>
                 </p>
             </div>
