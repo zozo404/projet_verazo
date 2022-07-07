@@ -7,7 +7,6 @@
     <title>Projet verazo</title>
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/jeu.css">
-    
     <link rel="icon" type="image/png" href="img/pirate-zoom.png"/>
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
 
