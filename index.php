@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -31,10 +35,10 @@
             
                     <div class="container-carte">
                     <a id="" class="accueil lienNav" href="#Accueil">accueil</a>
-                    <a id="" class="jeu lienNav" href="">jeu</a>
-                    <a id="" class="présentation lienNav" href="">présentation</a>
+                    <a id="" class="jeu lienNav" href="jeux.php">jeu</a>
+                    <a id="" class="présentation lienNav" href="présentation.php">présentation</a>
                     <a id="" class="news lienNav" href="#News">news</a>
-                    <a id="" class="login lienNav" href="">login</a>
+                    <a id="" class="login lienNav" href="connexion.php">login</a>
                     <a id="" class="classement lienNav" href="#Classement">classement</a>
                     </div>
                     <div class="invisible"></div>
