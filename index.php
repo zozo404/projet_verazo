@@ -19,11 +19,11 @@
             <div class="menu font-xbones">
                 <p>Verazo island</p>
                 <div class="menu-accueil"><a href="#Accueil">Accueil</a></div>
-                <div class="menu-jeux"><a href="jeux.html">Jeux</a></div>
-                <div class="menu-presentation"><a href="presentation.html">Présentation</a></div>
+                <div class="menu-jeux"><a href="jeux.php">Jeux</a></div>
+                <div class="menu-presentation"><a href="presentation.php">Présentation</a></div>
                 <div class="menu-news"><a href="#News">News</a></div>
                 <div class="menu-classement"><a href="#Classement">Classement</a></div>
-                <div class="menu-login"><a href="">Login</a></div>
+                <div class="menu-login"><a href="connexion.php" target="_blank">Login</a></div>
 
                 <!--  ||||  BOUTON NAVBAR |||||| -->
                 <div class="nav-mobile">

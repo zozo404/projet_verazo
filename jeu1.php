@@ -30,11 +30,11 @@
             <div class="menu">
                 <p>Verazo island</p>
             <!-- top du site / menu navbar / header -->
-                <div class="menu-accueil"><a href="index.html">Accueil</a></div>
-                <div class="menu-jeux"><a href="jeux.html">Jeux</a></div>
-                <div class="menu-presentation"><a href="presentation.html">Présentation</a></div>
-                <div class="menu-news"><a href="news.html">News</a></div>
-                <div class="menu-classement"><a href="classement.html">Classement</a></div>
+                <div class="menu-accueil"><a href="index.php">Accueil</a></div>
+                <div class="menu-jeux"><a href="jeux.php">Jeux</a></div>
+                <div class="menu-presentation"><a href="presentation.php">Présentation</a></div>
+                <div class="menu-news"><a href="news.php">News</a></div>
+                <div class="menu-classement"><a href="classement.php">Classement</a></div>
                 <div class="menu-login"><a href="">Login</a></div>
 
                 <!--  ||||  BOUTON NAVBAR |||||| -->

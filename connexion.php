@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/inscription.css">
+    <link rel="stylesheet" href="assets/css/connexion.css">
     <script src="https://cdn.tailwindcss.com"></script>
-	<title>Inscription Verazo</title>
+	<title>Connexion Verazo</title>
 
 </head>
 <body class="h-screen overflow-hidden flex items-center justify-center">
@@ -23,11 +23,11 @@
 					></div>
 					<!-- Col -->
 					<div class="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none font-bleu">
-						<h3 class="pt-4 text-2xl text-center font-xbones">Rejoignez l'équipage ou m}urrez !</h3>
-						<p class="text-center">Pour découvrir nos jeux et participer aux challenges !</p>
+						<h3 class="pt-4 text-2xl text-center font-xbones">Identifiez-vous, matel}t !</h3>
+						<p class="text-center">Pour poursuivre votre aventure !</p>
 						<form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
 							<div class="mb-4 md:flex md:justify-between">
-								<div class="mb-4 md:mr-2 md:mb-0">
+								<div class="mb-4 md:mr-2 md:mb-0 w-full">
 									<label class="block mb-2 text-sm font-bold text-gray-700 font-xbones" for="firstName">
 										Nom de pirate
 									</label>
@@ -38,7 +38,7 @@
 										placeholder="Nom de pirate"
 									/>
 								</div>
-								<div class="md:ml-2">
+								<!-- <div class="md:ml-2">
 									<label class="block mb-2 text-sm font-bold text-gray-700 font-xbones" for="email">
 										Email
 									</label>
@@ -48,7 +48,7 @@
 										type="email"
 										placeholder="Email"
 									/>
-								</div>
+								</div> -->
 							</div>
 							
 							<div class="mb-4 md:flex md:justify-between">
@@ -78,10 +78,10 @@
 							</div>
 							<div class="mb-6 text-center">
 								<button
-									class="w-70 px-4 py-2 font-bold text-white bg-cyan-300 color-black rounded-full hover:bg-cyan-400 focus:outline-none focus:shadow-outline font-xbones register-spacing text-black"
+									class="w-40 px-4 py-2 font-bold text-white bg-cyan-300 color-black rounded-full hover:bg-cyan-400 focus:outline-none focus:shadow-outline font-xbones register-spacing text-black"
 									type="button"
 								>
-									L'aventure commence !
+									C'est parti !
 								</button>
 							</div>
 							<hr class="mb-6 border-t" />
@@ -96,9 +96,9 @@
 							<div class="text-center">
 								<a
 									class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-									href="/connexion.html"
+									href="inscription.php"
 								>
-									Déjà un compte ? Connecte toi !
+									Pas de compte ? Inscris toi !
 								</a>
 							</div>
 						</form>

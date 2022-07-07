@@ -19,11 +19,11 @@
             <div class="menu">
                 <p>Verazo island</p>
             <!-- top du site / menu navbar / header -->
-                <div class="menu-accueil"><a href="index.html">Accueil</a></div>
-                <div class="menu-jeux"><a href="jeux.html">Jeux</a></div>
-                <div class="menu-presentation"><a href="presentation.html">Présentation</a></div>
-                <div class="menu-news"><a href="index.html #News">News</a></div>
-                <div class="menu-classement"><a href="index.html #Classement">Classement</a></div>
+                <div class="menu-accueil"><a href="index.php">Accueil</a></div>
+                <div class="menu-jeux"><a href="jeux.php">Jeux</a></div>
+                <div class="menu-presentation"><a href="presentation.php">Présentation</a></div>
+                <div class="menu-news"><a href="index.php #News">News</a></div>
+                <div class="menu-classement"><a href="index.php #Classement">Classement</a></div>
                 <div class="menu-login"><a href="">Login</a></div>
 
                 <!--  ||||  BOUTON NAVBAR |||||| -->
@@ -31,12 +31,12 @@
                     <img class="img-nav" src="./img/crane-de-pirate.png">
             
                     <div class="container-carte">
-                    <a id="lienNav" class="accueil" href="index.html">accueil</a>
+                    <a id="lienNav" class="accueil" href="index.php">accueil</a>
                     <a id="lienNav" class="jeu" href="">jeu</a>
                     <a id="lienNav" class="présentation" href="">présentation</a>
-                    <a id="lienNav" class="news" href="index.html #News">news</a>
+                    <a id="lienNav" class="news" href="index.php #News">news</a>
                     <a id="lienNav" class="login" href="">login</a>
-                    <a id="lienNav" class="classement" href="index.html #Classement">classement</a>
+                    <a id="lienNav" class="classement" href="index.php #Classement">classement</a>
                     </div>
                     <div class="invisible"></div>
                 </div>
