@@ -41,6 +41,9 @@
             </div>
             
         </header>
+        <div id="Accueil" class="image-accueil">
+            <img class="image-accueil-pirate" src="./img/pirate.jpg">
+        </div>
             <div class="presentation-haut">
                 <p>
                     Qui sommes-nous ?

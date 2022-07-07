@@ -24,7 +24,7 @@
 					></div>
 					<!-- Col -->
 					<div class="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none font-bleu">
-						<h3 class="pt-4 text-2xl text-center font-xbones">Identifiez-vous, matel}t !</h3>
+						<h3 class="pt-4 text-2xl text-center font-xbones">Identifiez-vous, matelOt !</h3>
 						<p class="text-center">Pour poursuivre votre aventure !</p>
 						<form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
 							<div class="mb-4 md:flex md:justify-between">
@@ -39,17 +39,6 @@
 										placeholder="Nom de pirate"
 									/>
 								</div>
-								<!-- <div class="md:ml-2">
-									<label class="block mb-2 text-sm font-bold text-gray-700 font-xbones" for="email">
-										Email
-									</label>
-									<input
-										class="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-										id="email"
-										type="email"
-										placeholder="Email"
-									/>
-								</div> -->
 							</div>
 							
 							<div class="mb-4 md:flex md:justify-between">

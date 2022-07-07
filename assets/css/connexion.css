@@ -13,3 +13,8 @@ body{
 .font-xbones{
     font-family: 'xbonesregular';
 }
+@media screen and (min-width:761px) {
+    #firstName{
+        font-size: 20px;
+    }
+}

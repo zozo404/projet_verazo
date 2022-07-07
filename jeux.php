@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Présentation</title>
+    <title>Jeux</title>
     <link rel="icon" type="image/png" href="img/pirate-zoom.png"/>
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/presentation.css">
@@ -43,6 +43,9 @@
             </div>
             
         </header>
+        <div id="Accueil" class="image-accueil">
+            <img class="image-accueil-pirate" src="./img/pirate.jpg">
+        </div>
             <div class="presentation-haut">
                 <p class="presentation-titre">
                     Choisissez l'épreuve que vous voulez faire 

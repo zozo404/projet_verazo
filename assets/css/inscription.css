@@ -16,3 +16,8 @@ body{
 .font-xbones{
     font-family: 'xbonesregular';
 }
+@media screen and (min-width:761px) {
+    #firstName, #email{
+        font-size: 15px;
+    }
+}

@@ -24,7 +24,7 @@
 					></div>
 					<!-- Col -->
 					<div class="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none font-bleu">
-						<h3 class="pt-4 text-2xl text-center font-xbones">Rejoignez l'équipage ou m}urrez !</h3>
+						<h3 class="pt-4 text-2xl text-center font-xbones">Rejoignez l'équipage ou mOurrez !</h3>
 						<p class="text-center">Pour découvrir nos jeux et participer aux challenges !</p>
 						<form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
 							<div class="mb-4 md:flex md:justify-between">
