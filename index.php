@@ -1,5 +1,5 @@
 <?php
-
+require 'mail.php';
 ?>
 
 <!DOCTYPE html>
@@ -233,24 +233,25 @@
 
                     <div class="footer_formbloc">
 
-                        <form class="footer_formulaire">
+                    <!-- formulaire email -->
+                    
+                        <form class="footer_formulaire" method="post" action="mail.php" id="form1">
 
                             <div class="formpart">
-                                <input class="form_champ form-contact ubuntu-bold" type="text" placeholder="Votre nom" >
+                                <input class="form_champ form-contact ubuntu-bold" type="text" placeholder="Votre nom" id="name" type="text" name="name" required>
                             </div>
-
 
 
                             <div class="formpart ">
-                                <input class="form_champ form-contact ubuntu-bold" type="text"  placeholder="Votre email">
+                                <input class="form_champ form-contact ubuntu-bold" type="text"  placeholder="Votre email" id="email" type="email" name="email" required>
                             </div>
 
                             <div class="formpart">
-                                <textarea class="form_txt ubuntu-bold"  placeholder="Votre message"  ></textarea>
+                                <textarea class="form_txt ubuntu-bold"  placeholder="Votre message"  required id="formText" name="formText"></textarea>
                             </div>
 
                             <div class="formpart" id="form_btn">
-                                <input class=" font-xbones form_champ form-champ-btn" type="submit" name="submit" value="Envoyer" id="sub" class="form_bouton" style="background-color:#827FFE;color:whitesmoke">
+                                <input class=" font-xbones form_champ form-champ-btn btn-validation" type="submit" name="submit" value="Envoyer" id="sub" class="form_bouton" style="background-color:#827FFE;color:whitesmoke">
                             </div>
                         
                         </form>
