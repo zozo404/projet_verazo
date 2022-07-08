@@ -127,7 +127,7 @@
 	<!-- partie footer  -->
 	<footer class="footer-general">
                 <div class="footer-div-haut">
-                <div class="footer-div-haut"></div>
+                	<div class="footer-div-haut"></div>
                     <p class="copyright mb-3 text-black">&copy; Projet Verazo</p>
                 </div>
                 <hr>
@@ -135,6 +135,6 @@
                     <img src="./img/logo insta.png" alt="logo insta">
                     <img src="./img/twitter.png" alt="logo twitter">
                 </div>
-		</footer>
+	</footer>
 </body>
 </html>
