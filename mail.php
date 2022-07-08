@@ -20,7 +20,7 @@ if (isset($_POST["formText"])) {
         $message = '<h2>Message envoyé depuis le formulaire contact de verazo island</h2>
         <p style="font-size:17px;"><b>Nom: </b>'. $_POST['name'].'<br>
         <p style="font-size:17px;"><b>Email: </b>' . $_POST['email'] . '<br>
-        <br>
+        <p style="font-size:17px;"><b>Objet: </b>' . ($_POST['objet']) . '<br><br>
         <b style="font-size:17px;">Message: </b><br><br><p style="font-size:18px;">' . ($_POST['formText']) . '</p>';
 
     $retour = mail("zozoydev@gmail.com", 'Envoi depuis formulaire Contact', $message,$entete);

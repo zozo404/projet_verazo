@@ -247,6 +247,9 @@ require 'mail.php';
                             <div class="formpart ">
                                 <input class="form_champ form-contact ubuntu-bold" type="text"  placeholder="Votre email" id="email" type="email" name="email" required>
                             </div>
+                            <div class="user-box">
+                                <input class="form_champ form-contact ubuntu-bold" minlength="5" type="text" name="objet" id="objet" required placeholder="Objet">
+                            </div>
 
                             <div class="formpart">
                                 <textarea class="form_txt ubuntu-bold"  placeholder="Votre message"  required id="formText" name="formText"></textarea>
