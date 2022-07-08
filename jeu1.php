@@ -32,8 +32,8 @@
                 <div class="menu-accueil"><a href="index.php">Accueil</a></div>
                 <div class="menu-jeux"><a href="jeux.php">Jeux</a></div>
                 <div class="menu-presentation"><a href="presentation.php">Présentation</a></div>
-                <div class="menu-news"><a href="news.php">News</a></div>
-                <div class="menu-classement"><a href="classement.php">Classement</a></div>
+                <div class="menu-news"><a href="index.html #News">News</a></div>
+                <div class="menu-classement"><a href="index.php #Classement">Classement</a></div>
                 <div class="menu-login"><a href="">Login</a></div>
 
                 <!--  ||||  BOUTON NAVBAR |||||| -->
@@ -41,12 +41,13 @@
                     <img class="img-nav" src="./img/crane-de-pirate.png">
             
                     <div class="container-carte">
-                    <a id="" class="accueil lienNav" href="">accueil</a>
-                    <a id="" class="jeu lienNav" href="">jeu</a>
-                    <a id="" class="présentation lienNav" href="">présentation</a>
-                    <a id="" class="news lienNav" href="">news</a>
-                    <a id="" class="login lienNav" href="">login</a>
-                    <a id="" class="classement lienNav" href="">classement</a>
+                    <a id="" class="accueil lienNav" href="index.php">accueil</a>
+                    <a id="" class="jeu lienNav" href="jeux.php">jeu</a>
+                    <a id="" class="présentation lienNav" href="presentation.php">présentation</a>
+                    <a id="" class="news lienNav" href="index.php #News">news</a>
+                    <a id="" class="classement lienNav" href="index.php #Classement">classement</a>
+                    <a id="" class="news lienNav" href="index.php #Contact">contact</a>
+                    <a id="" class="login lienNav" href="connexion.php">login</a>
                     </div>
                     <div class="invisible"></div>
                 </div>

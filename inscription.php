@@ -20,9 +20,9 @@
 					<div class="menu-accueil"><a href="#Accueil">Accueil</a></div>
 					<div class="menu-jeux"><a href="jeux.php">Jeux</a></div>
 					<div class="menu-presentation"><a href="presentation.php">Présentation</a></div>
-					<div class="menu-news"><a href="#News">News</a></div>
-					<div class="menu-classement"><a href="#Classement">Classement</a></div>
-					<div class="menu-contact"><a href="#Contact">Conctact</a></div>
+					<div class="menu-news"><a href="index.php #News">News</a></div>
+					<div class="menu-classement"><a href="index.php #Classement">Classement</a></div>
+					<div class="menu-contact"><a href="index.php #Contact">Conctact</a></div>
 					<div class="menu-login"><a href="connexion.php" target="_blank">Login</a></div>
 
 							<!--  ||||  BOUTON NAVBAR |||||| -->
@@ -33,9 +33,9 @@
 							<a id="" class="accueil lienNav" href="#Accueil">accueil</a>
 							<a id="" class="jeu lienNav" href="jeux.php">jeu</a>
 							<a id="" class="présentation lienNav" href="présentation.php">présentation</a>
-							<a id="" class="news lienNav" href="#News">news</a>
-							<a id="" class="classement lienNav" href="#Classement">classement</a>
-							<a id="" class="contact lienNav" href="#Contact">Contact</a>
+							<a id="" class="news lienNav" href="index.php#News">news</a>
+							<a id="" class="classement lienNav" href="index.php #Classement">classement</a>
+							<a id="" class="contact lienNav" href="index.php #Contact">Contact</a>
 							<a id="" class="login lienNav" href="connexion.php">login</a>
 						</div>
 						<div class="invisible"></div>

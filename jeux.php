@@ -33,10 +33,10 @@
             
                     <div class="container-carte">
                     <a id="lienNav" class="accueil" href="index.php">accueil</a>
-                    <a id="lienNav" class="jeu" href="">jeu</a>
-                    <a id="lienNav" class="présentation" href="">présentation</a>
+                    <a id="lienNav" class="jeu" href="jeux.php">jeu</a>
+                    <a id="lienNav" class="présentation" href="presentation.php">présentation</a>
                     <a id="lienNav" class="news" href="index.php #News">news</a>
-                    <a id="lienNav" class="login" href="">login</a>
+                    <a id="lienNav" class="login" href="connexion.php">login</a>
                     <a id="lienNav" class="classement" href="index.php #Classement">classement</a>
                     </div>
                     <div class="invisible"></div>
