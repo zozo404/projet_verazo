@@ -70,7 +70,7 @@
 a{
 	text-decoration: none;
 }
-@media screen and (min-width:760px) {
+@media screen and (min-width:860px) {
     .jeux-hr{
         display: none;
     }

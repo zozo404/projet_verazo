@@ -18,3 +18,184 @@ body{
         font-size: 20px;
     }
 }
+@media screen and (max-width:1220px) {
+    .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-contact, .menu-login{
+        font-size: 17px;
+        transition: 0.5s;
+    }
+    .menu-accueil {
+        margin-left: 10px;
+    }
+}
+/*|||||||||||| NAVBAR MENU |||||||||||||||||||||| */
+.container-menu{
+    position: sticky;
+    top: -5px;
+    z-index: 100;
+}
+.menu{
+
+    display: flex;
+    justify-content: space-around;
+    font-size: 27px;
+    align-items: baseline;
+    background-color: #01b4ea;
+}
+.menu p{
+    font-size: 32px;
+}
+.menu div a{
+    text-decoration: none;
+    color: black;
+    
+}
+.div-burger{
+    display: none;
+}
+.menu-accueil{
+    margin-left: 45px;
+}
+/* responsive */
+@media screen and (max-width:1220px) {
+    .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-contact, .menu-login{
+        font-size: 17px;
+        transition: 0.5s;
+    }
+    .menu-accueil {
+        margin-left: 10px;
+    }
+}
+
+/*||||||||||||||| NAVBAR MENU FIN |||||||||||||||||||||*/
+
+/*||||||||||||||| BOUTON NAVBAR |||||||||||||||||||||*/
+
+.lienNav{
+    position: absolute;
+    text-decoration: none;
+    
+}
+
+.container-carte{
+    display: flex;
+     position: relative;
+    background-image: url("carte.jpg");
+    width: 80%;
+    height: 30vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    top: 25vh;
+
+     display: none;
+}
+.accueil{
+    top: 0;
+    left: 0;
+}
+.présentation{
+    top: 0;
+    right: 0;
+}
+.news{
+    bottom: 0;
+    left: 0;
+}
+.classement, .contact{
+    bottom: 0;
+    right: 0;
+}
+
+.jeu{
+    top: 25%;
+    left: 35%;
+
+}
+.login{
+    bottom: 0;
+    left: 35%;
+}
+.img-nav{
+    width: 15%;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    right: 15px;
+    top: 20px;
+}
+
+.invisible{
+    height: 100vh;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    
+}
+
+.carte{
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 25%;
+}
+.img-nav{
+    display: none;
+}
+/* version pc / ipad  */
+
+@media screen and (max-width:860px) {
+    .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-contact, .menu-login{
+        display: none;
+    }
+    .img-nav{
+        display: block;
+    }
+}
+@media screen and (min-width:540px) {
+    
+    .img-nav{
+        top: 8px;
+        
+    }
+}
+@media screen and (min-width:280px) {
+    .img-nav{
+        width: 11%;
+
+    }
+}
+@media screen and (max-width:540px) {
+    .menu p {
+        font-size: 25px;
+    }
+}
+/*||||||||||||||| BOUTON NAVBAR FIN |||||||||||||||||||||*/
+
+/* footer */
+.footer-general hr{
+    width: 30%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.footer-general{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-general hr{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footer-div-bas{
+    display: flex;
+    gap: 3px;
+    margin-top: 10px;
+}
+.footer-div-bas img{
+    height: 25px;
+    width: 25px;
+}

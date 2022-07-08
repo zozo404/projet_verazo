@@ -4,16 +4,47 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/inscription.css">
     <link rel="icon" type="image/png" href="img/pirate-zoom.png"/>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/inscription.css">
+
 	<title>Inscription Verazo</title>
 
 </head>
-<body class="h-screen overflow-hidden flex items-center justify-center">
-    <body class="font-mono bg-gray-400">
+
+<body class="h-screen overflow-hidden  font-mono general flex-col overflow-y-auto" id="Accueil">
+	
+		<header class="container-menu">
+			<div class="menu font-xbones">
+					<p class="my-5">Verazo island</p>
+					<div class="menu-accueil"><a href="#Accueil">Accueil</a></div>
+					<div class="menu-jeux"><a href="jeux.php">Jeux</a></div>
+					<div class="menu-presentation"><a href="presentation.php">Présentation</a></div>
+					<div class="menu-news"><a href="#News">News</a></div>
+					<div class="menu-classement"><a href="#Classement">Classement</a></div>
+					<div class="menu-contact"><a href="#Contact">Conctact</a></div>
+					<div class="menu-login"><a href="connexion.php" target="_blank">Login</a></div>
+
+							<!--  ||||  BOUTON NAVBAR |||||| -->
+					<div class="nav-mobile">
+						<img class="img-nav" src="./img/crane-de-pirate.png">
+						
+						<div class="container-carte">
+							<a id="" class="accueil lienNav" href="#Accueil">accueil</a>
+							<a id="" class="jeu lienNav" href="jeux.php">jeu</a>
+							<a id="" class="présentation lienNav" href="présentation.php">présentation</a>
+							<a id="" class="news lienNav" href="#News">news</a>
+							<a id="" class="classement lienNav" href="#Classement">classement</a>
+							<a id="" class="contact lienNav" href="#Contact">Contact</a>
+							<a id="" class="login lienNav" href="connexion.php">login</a>
+						</div>
+						<div class="invisible"></div>
+					</div>
+			</div>
+						
+		</header>
 		<!-- Container -->
-		<div class="container mx-auto">
+		<div class="container mx-auto flex justify-center flex-col">
 			<div class="flex justify-center px-6 my-12">
 				<!-- Row -->
 				<div class="w-full xl:w-3/4 lg:w-11/12 flex">
@@ -107,6 +138,18 @@
 				</div>
 			</div>
 		</div>
-	</body>
+		<!-- partie footer  -->
+		<footer class="footer-general">
+                <div class="footer-div-haut">
+                <div class="footer-div-haut"></div>
+                    <p class="copyright mb-3 text-black">&copy; Projet Verazo</p>
+                </div>
+                <hr>
+                <div class="footer-div-bas">
+                    <img src="./img/logo insta.png" alt="logo insta">
+                    <img src="./img/twitter.png" alt="logo twitter">
+                </div>
+		</footer>
+	
 </body>
 </html>

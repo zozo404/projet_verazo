@@ -49,7 +49,7 @@ body{
     margin-left: 45px;
 }
 /* responsive */
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1220px) {
     .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-contact, .menu-login{
         font-size: 17px;
         transition: 0.5s;
@@ -136,7 +136,7 @@ body{
 }
 /* version pc / ipad  */
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:860px) {
     .menu-accueil, .menu-jeux, .menu-presentation, .menu-news, .menu-classement, .menu-contact, .menu-login{
         display: none;
     }
@@ -193,7 +193,7 @@ hr{
     line-height: 20px;
 }
 /* version pc / ipad  */
-@media screen and (min-width:760px) {
+@media screen and (min-width:860px) {
     .container-body-haut, .container-body-milieu, .container-body-bas{
         flex-direction: row;
         align-items: center;
