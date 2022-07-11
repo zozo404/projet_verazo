@@ -102,8 +102,12 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                 </div>
                 <hr>
                 <div class="footer-div-bas">
-                    <img src="./img/logo insta.png" alt="logo insta">
-                    <img src="./img/twitter.png" alt="logo twitter">
+                    <a href="https://www.instagram.com/?hl=fr">
+                        <img src="./img/logo insta.png" alt="logo insta">
+                    </a>
+                    <a href="https://twitter.com/?lang=fr">
+                        <img src="./img/twitter.png" alt="logo twitter">
+                    </a>
                 </div>
             </footer>
 
