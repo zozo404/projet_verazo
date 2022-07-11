@@ -37,7 +37,7 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                 <div class="menu-news"><a href="#News">News</a></div>
                 <div class="menu-classement"><a href="#Classement">Classement</a></div>
                 <div class="menu-contact"><a href="#Contact">Conctact</a></div>
-                <div class="menu-login"><a href="connexion.php" target="_blank">Login</a></div>
+                <div class="menu-login"><a href="login.php" target="_blank">Login</a></div>
 
                 <!--  ||||  BOUTON NAVBAR |||||| -->
                 <div class="nav-mobile">
@@ -50,7 +50,7 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                     <a id="" class="news lienNav" href="#News">news</a>
                     <a id="" class="classement lienNav" href="#Classement">classement</a>
                     <a id="" class="contact lienNav" href="#Contact">Contact</a>
-                    <a id="" class="login lienNav" href="connexion.php">login</a>
+                    <a id="" class="login lienNav" href="login.php">login</a>
                     </div>
                     <div class="invisible"></div>
                 </div>
@@ -144,7 +144,7 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                             <div class="div-joueur">
                                 <p class="nom-joueur"><?php echo $send['nom_users']?></p>
                                 <img alt="avatar du joueur" src="<?=$send['avatar_users']?>">
-                                <p class="pseudo-joueur"><?php echo $send['pseudo_users']?></p>
+                                <p class="pseudo-joueur">@<?php echo $send['pseudo_users']?></p>
                             </div>
                             <div class="div-numero">
                                 <p class="font-xbones"><b><?php echo $send['position_classement']?></b></p>

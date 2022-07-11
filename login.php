@@ -20,7 +20,7 @@
 					<div class="menu-news"><a href="index.php #News">News</a></div>
 					<div class="menu-classement"><a href="index.php #Classement">Classement</a></div>
 					<div class="menu-contact"><a href="index.php #Contact">Conctact</a></div>
-					<div class="menu-login"><a href="connexion.php" target="_blank">Login</a></div>
+					<div class="menu-login"><a href="login.php" target="_blank">Login</a></div>
 
 							<!--  ||||  BOUTON NAVBAR |||||| -->
 					<div class="nav-mobile">
@@ -33,7 +33,7 @@
 							<a id="" class="news lienNav" href="index.php #News">news</a>
 							<a id="" class="classement lienNav" href="index.php #Classement">classement</a>
 							<a id="" class="contact lienNav" href="index.php #Contact">Contact</a>
-							<a id="" class="login lienNav" href="connexion.php">login</a>
+							<a id="" class="login lienNav" href="login.php">login</a>
 						</div>
 						<div class="invisible"></div>
 					</div>

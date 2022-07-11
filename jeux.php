@@ -33,7 +33,7 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                 <div class="menu-news"><a href="index.php #News">News</a></div>
                 <div class="menu-classement"><a href="index.php #Classement">Classement</a></div>
                 <div class="menu-contact"><a href="index.php #Contact">Conctact</a></div>
-                <div class="menu-login"><a href="connexion.php" target="_blank">Login</a></div>
+                <div class="menu-login"><a href="login.php" target="_blank">Login</a></div>
 
                 <!--  ||||  BOUTON NAVBAR |||||| -->
                 <div class="nav-mobile">
@@ -44,7 +44,7 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                     <a id="lienNav" class="jeu" href="jeux.php">jeu</a>
                     <a id="lienNav" class="présentation" href="presentation.php">présentation</a>
                     <a id="lienNav" class="news" href="index.php #News">news</a>
-                    <a id="lienNav" class="login" href="connexion.php">login</a>
+                    <a id="lienNav" class="login" href="login.php">login</a>
                     <a id="lienNav" class="classement" href="index.php #Classement">classement</a>
                     </div>
                     <div class="invisible"></div>

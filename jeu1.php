@@ -34,7 +34,7 @@
                 <div class="menu-presentation"><a href="presentation.php">Présentation</a></div>
                 <div class="menu-news"><a href="index.html #News">News</a></div>
                 <div class="menu-classement"><a href="index.php #Classement">Classement</a></div>
-                <div class="menu-login"><a href="">Login</a></div>
+                <div class="menu-login"><a href="login.php">Login</a></div>
 
                 <!--  ||||  BOUTON NAVBAR |||||| -->
                  <div class="nav-mobile">
@@ -47,7 +47,7 @@
                     <a id="" class="news lienNav" href="index.php #News">news</a>
                     <a id="" class="classement lienNav" href="index.php #Classement">classement</a>
                     <a id="" class="news lienNav" href="index.php #Contact">contact</a>
-                    <a id="" class="login lienNav" href="connexion.php">login</a>
+                    <a id="" class="login lienNav" href="login.php">login</a>
                     </div>
                     <div class="invisible"></div>
                 </div>
