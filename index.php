@@ -1,5 +1,15 @@
 <?php
 require 'mail.php';
+require 'connexion.php';
+
+$requete = $connexion->prepare("SELECT * FROM news");
+$requete->execute();
+$value = $requete->fetchAll(PDO::FETCH_ASSOC);
+
+// $requete = $connexion->prepare("SELECT * FROM classement");
+// $requete->execute();
+// $value = $requete->fetchAll(PDO::FETCH_ASSOC);
+
 ?>
 
 <!DOCTYPE html>
@@ -101,31 +111,23 @@ require 'mail.php';
 
                     <section class="nc_news">
 
+                    <?php 
+                        foreach($value as $send):
+                    ?>
                         <div class="nc_blocnews">
                             
                             <div class="nc_bloctitle">
-                            <h2>Titre news</h2>
+                            <h2><?php echo $send["titre_news"]?></h2>
                             </div>
 
                             <div class="nc_bloctxt">
-                                <p class="nc_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id unde deleniti doloremque in error magnam accusamus officiis voluptatem fugiat quo est eos, vel quisquam illo commodi magni culpa omnis provident.</p>
+                                <p class="nc_text"><?php echo $send["contenu_news"]?></p>
                             </div>
 
                         </div>
-
-                        <div class="nc_blocnews">
-                                
-                            <div class="nc_bloctitle">
-                            <h2>Titre news</h2>
-                            </div>
-
-
-                            <div class="nc_bloctxt">
-                                    <p class="nc_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id unde deleniti doloremque in error magnam accusamus officiis voluptatem fugiat quo est eos, vel quisquam illo commodi magni culpa omnis provident.</p>
-                            </div>
-
-                        </div>
-                    
+                    <?php
+                    endforeach;
+                    ?>
                     </section>
                     <hr id="Classement">
 

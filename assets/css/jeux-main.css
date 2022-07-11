@@ -11,7 +11,14 @@
     border-radius: 10px;
     width: 130px;
 }
-
+.jeux-container .description-jeux{
+	opacity: 0;
+}
+.jeux-container:hover .description-jeux{
+	opacity : 1;
+	border-radius: 2px;
+	transition: opacity 0.8s, height 0.8s;
+}
 /* hover jeux */
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 

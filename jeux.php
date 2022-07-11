@@ -1,3 +1,11 @@
+<?php
+require 'connexion.php';
+
+$requete = $connexion->prepare("SELECT * FROM jeux");
+$requete->execute();
+$value = $requete->fetchAll(PDO::FETCH_ASSOC);
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -63,38 +71,26 @@
                 </div>
                 <div class="presentation-bloc-personne">
                     <!-- FAIRE GENERATION EN PHP / FOREACH -->
-                    <div class="presentation-bloc-personne1 jeux-container">
-                        <a href="#">
+                    <?php 
+                        foreach($value as $send):
+                    ?>
+                    <div class="presentation-bloc-personne jeux-container">
+                        <a href="<?=$send['lien_jeu']?>">
                             <div class="presentation-personne-image">
-                                <img src="./img/luffy5.jpg">
+                                <img src="<?=$send['image_jeu']?>">
                             </div>
                             <div class="presentation-personne-texte">
-                                <p class="personne-texte jeux-title"><span class="font-xbones">Jeux 1</span></p>
+                                <p class="personne-texte jeux-title"><span class="font-xbones"><?php echo $send["nom_jeu"]?></span></p>
                             </div>
                         </a>
+                        <figcaption class="description-jeux">
+                            <?php echo $send["description_jeu"]?>
+                        </figcaption>
                     </div>
                     <hr class="jeux-hr">
-                    <div class="presentation-bloc-personne2 jeux-container">
-                        <a href="#">
-                            <div class="presentation-personne-image">
-                                <img src="./img/pirate_serpent.png">
-                            </div>
-                            <div class="presentation-personne-texte">
-                                <p class="personne-texte jeux-title"><span class="font-xbones">Jeux 2</span></p>
-                            </div>
-                        </a>
-                    </div>
-                    <hr class="jeux-hr">
-                    <div class="presentation-bloc-personne3 jeux-container">
-                        <a href="#">
-                            <div class="presentation-personne-image">
-                                <img src="./img/puissance4.png">
-                            </div>
-                            <div class="presentation-personne-texte">
-                                <p class="personne-texte jeux-title"><span class="font-xbones">Jeux 3</span></p>
-                            </div>
-                        </a>                        
-                    </div>
+                    <?php
+                    endforeach;
+                    ?>
                     <!-- FIN PHP FOREACH -->
                 </div>
             </div>

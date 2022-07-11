@@ -1,3 +1,12 @@
+<?php
+require 'connexion.php';
+
+$requete = $connexion->prepare("SELECT * FROM admin");
+$requete->execute();
+$value = $requete->fetchAll(PDO::FETCH_ASSOC);
+
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -55,35 +64,26 @@
             <div class="presentation-body">
                 <div class="presentation-bloc-texte">
                     <p class="presentation-texte">
-                        Et olim licet otiosae sint tribus pacataeque centuriae et nulla suffragiorum certamina set Pompiliani redierit securitas temporis, per omnes tamen quotquot sunt partes terrarum, ut domina suscipitur et regina et ubique patrum reverenda cum auctoritate canities populique Romani nomen circumspectum et verecundum.
+                        Nous sommes tous les 3 en formations de dévelopeur web et web mobile chez Osengo et, nous avons réunis nos compétences afin de réaliser ce site. Vous pouvez jouer à 3 jeux en rapports avec les pirates, essayer de devenir meilleur que Gol D. Roger.
                     </p>
                 </div>
                 <div class="presentation-bloc-personne">
                     <!-- FAIRE GENERATION EN PHP / FOREACH -->
-                    <div class="presentation-bloc-personne1">
+                    <?php 
+                        foreach($value as $send):
+                    ?>
+                    <div class="presentation-bloc-personne" style="display: flex; flex-direction:column;">
                         <div class="presentation-personne-image">
-                            <img src="./img/big.png">
+                            <img src="<?=$send['avatar_admin']?>" alt="avatar de <?php echo $send['nom_admin']?>">
                         </div>
+                        
                         <div class="presentation-personne-texte">
-                            <p class="personne-texte">Je suis <span class="font-xbones">Enzo</span></p>
+                            <p class="personne-texte">Je suis <span class="font-xbones"><?php echo $send["nom_admin"]?></span></p>
                         </div>
                     </div>
-                    <div class="presentation-bloc-personne2">
-                        <div class="presentation-personne-image">
-                            <img src="./img/big.png">
-                        </div>
-                        <div class="presentation-personne-texte">
-                            <p class="">Je suis <span class="font-xbones">Rayan</span></p>
-                        </div>
-                    </div>
-                    <div class="presentation-bloc-personne3">
-                        <div class="presentation-personne-image">
-                            <img src="./img/big.png">
-                        </div>
-                        <div class="presentation-personne-texte">
-                            <p class="">Je suis <span class="font-xbones">Véronique</span></p>
-                        </div>
-                    </div>
+                    <?php
+                    endforeach;
+                    ?>
                     <!-- FIN PHP FOREACH -->
                 </div>
             </div>

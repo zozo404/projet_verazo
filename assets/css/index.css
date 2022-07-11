@@ -275,7 +275,9 @@ hr{
 
 }
 
-
+.nc_bloctitle{
+    text-align: center;
+}
 
 .nc_bloctxt{
 width: 80%;
