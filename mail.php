@@ -23,7 +23,7 @@ if (isset($_POST["formText"])) {
         <p style="font-size:17px;"><b>Objet: </b>' . ($_POST['objet']) . '<br><br>
         <b style="font-size:17px;">Message: </b><br><br><p style="font-size:18px;">' . ($_POST['formText']) . '</p>';
 
-    $retour = mail("zozoydev@gmail.com", 'Envoi depuis formulaire Contact', $message,$entete);
+    $retour = mail("verazosengo@gmail.com", 'Envoi depuis formulaire Contact', $message,$entete);
        // echo "<p>Votre mail à bien été envoyé";
        header('Location: index.php#footer_container');
        exit;
