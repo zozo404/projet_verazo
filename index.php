@@ -70,6 +70,7 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                  <!-- FAIRE GENERATION EN PHP / FOREACH -->
                 <div class="container-body-haut">
                     <div class="container-jeu-texte">
+                        <h1 class="font-xbones">Titre 1</h1>
                         <p>Suspendisse potenti. Nullam ut ligula id arcu porttitor cursus ut ut metus. Sed finibus feugiat leo sed malesuada. Proin a imperdiet augue, vel rhoncus diam. In turpis enim, ornare in eleifend eget, lobortis et lorem. Duis at dolor tellus. Etiam vestibulum lacus in mauris aliquam aliquet.</p>
                     </div>
                     <div class="container-jeu-image">
@@ -79,6 +80,7 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                 <hr>
                 <div class="container-body-milieu">
                     <div class="container-jeu-texte">
+                        <h1 class="font-xbones">Titre 2</h1>
                         <p>Suspendisse potenti. Nullam ut ligula id arcu porttitor cursus ut ut metus. Sed finibus feugiat leo sed malesuada. Proin a imperdiet augue, vel rhoncus diam. In turpis enim, ornare in eleifend eget, lobortis et lorem. Duis at dolor tellus. Etiam vestibulum lacus in mauris aliquam aliquet.</p>
                     </div>
                     <div class="container-jeu-image">
@@ -88,6 +90,7 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                 <hr>
                 <div class="container-body-bas">
                     <div class="container-jeu-texte">
+                        <h1 class="font-xbones">Titre 3</h1>
                         <p>Suspendisse potenti. Nullam ut ligula id arcu porttitor cursus ut ut metus. Sed finibus feugiat leo sed malesuada. Proin a imperdiet augue, vel rhoncus diam. In turpis enim, ornare in eleifend eget, lobortis et lorem. Duis at dolor tellus. Etiam vestibulum lacus in mauris aliquam aliquet.</p>
                     </div>
                     <div class="container-jeu-image">
@@ -147,13 +150,13 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                                 <p class="pseudo-joueur">@<?php echo $send['pseudo_users']?></p>
                             </div>
                             <div class="div-numero">
-                                <p class="font-xbones"><b><?php echo $send['position_classement']?></b></p>
+                                <p class="font-xbones"><b>rang: <?php echo $send['position_classement']?></b></p>
                             </div>
                             <div class="div-or">
                                 <p><b><?php echo $send['or_users']?></b><br> pièces d'or</p>
                             </div>
                             <div class="div-jeux">
-                                <a href="">
+                                <a href="<?=$send['lien_jeu']?>">
                                     <img src="<?=$send['image_jeu']?>">
                                 </a>
                             </div>
@@ -210,7 +213,7 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                             </div>
 
                             <div class="formpart" id="form_btn">
-                                <input class=" font-xbones form_champ form-champ-btn btn-validation" type="submit" name="submit" value="Envoyer" id="sub" class="form_bouton" style="background-color:#827FFE;color:whitesmoke">
+                                <input class=" font-xbones form_champ form-champ-btn btn-validation" type="submit" name="submit" value="Envoyer" id="sub" class="form_bouton" style="background-color:#00c4ff;color:black">
                             </div>
                         
                         </form>
@@ -233,8 +236,12 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                 </div>
                 <hr>
                 <div class="footer-div-bas">
-                    <img src="./img/logo insta.png" alt="logo insta">
-                    <img src="./img/twitter.png" alt="logo twitter">
+                    <a href="https://www.instagram.com/?hl=fr">
+                        <img src="./img/logo insta.png" alt="logo insta">
+                    </a>
+                    <a href="https://twitter.com/?lang=fr">
+                        <img src="./img/twitter.png" alt="logo twitter">
+                    </a>
                 </div>
             </footer>
 

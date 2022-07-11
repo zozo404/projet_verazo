@@ -128,7 +128,7 @@
 							<div class="text-center">
 								<a
 									class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-									href="connexion.php"
+									href="login.php"
 								>
 									Déjà un compte ? Connecte toi !
 								</a>
