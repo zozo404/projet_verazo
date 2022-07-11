@@ -1,14 +1,13 @@
 <?php
 require 'mail.php';
 require 'connexion.php';
+require 'get-classement.php';
 
 $requete = $connexion->prepare("SELECT * FROM news");
 $requete->execute();
 $value = $requete->fetchAll(PDO::FETCH_ASSOC);
 
-// $requete = $connexion->prepare("SELECT * FROM classement");
-// $requete->execute();
-// $value = $requete->fetchAll(PDO::FETCH_ASSOC);
+
 
 ?>
 
@@ -138,78 +137,31 @@ $value = $requete->fetchAll(PDO::FETCH_ASSOC);
                     <section class="nc-classement margin-classement">
                         <h1 class="titre-classement font-xbones">Classement</h1>
 
+                        <?php
+                        foreach($value_classement as $send):
+                        ?>
                         <div class="classement classement-premier">
                             <div class="div-joueur">
-                                <p class="nom-joueur">zozo</p>
-                                <img alt="avatar du joueur" src="./img/imagetestavatar.jpeg">
-                                <p class="pseudo-joueur">@zozo404</p>
+                                <p class="nom-joueur"><?php echo $send['nom_users']?></p>
+                                <img alt="avatar du joueur" src="<?=$send['avatar_users']?>">
+                                <p class="pseudo-joueur"><?php echo $send['pseudo_users']?></p>
                             </div>
                             <div class="div-numero">
-                                <p class="font-xbones"><b>1 er</b></p>
+                                <p class="font-xbones"><b><?php echo $send['position_classement']?></b></p>
                             </div>
                             <div class="div-or">
-                                <p><b>15485</b><br> pièces d'or</p>
+                                <p><b><?php echo $send['or_users']?></b><br> pièces d'or</p>
                             </div>
                             <div class="div-jeux">
                                 <a href="">
-                                    <img src="./img/serpent-carte.webp" alt="img jeu ">
-                                </a>
-                                <a href="">
-                                    <img src="./img/serpent-carte.webp" alt="img jeu ">
-                                </a>
-                                <a href="">
-                                    <img src="./img/serpent-carte.webp" alt="img jeu ">
+                                    <img src="<?=$send['image_jeu']?>">
                                 </a>
                             </div>
                         </div>
-                        <div class="classement classement-deuxieme">
-                            <div class="div-joueur">
-                                <p class="nom-joueur">zozo</p>
-                                <img alt="avatar du joueur" src="./img/imagetestavatar.jpeg">
-                                <p class="pseudo-joueur">@zozo404</p>
-                            </div>
-                            <div class="div-numero">
-                                <p class="font-xbones"><b>2 ème</b></p>
-                            </div>
-                            <div class="div-or">
-                                <p><b>15485</b><br> pièces d'or</p>
-                            </div>
-                            <div class="div-jeux">
-                                <a href="">
-                                    <img src="./img/samplegame.png" alt="img jeu ">
-                                </a>
-                                <a href="">
-                                    <img src="./img/samplegame.png" alt="img jeu ">
-                                </a>
-                                <a href="">
-                                    <img src="./img/samplegame.png" alt="img jeu ">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="classement classement-troisieme">
-                            <div class="div-joueur">
-                                <p class="nom-joueur">zozo</p>
-                                <img alt="avatar du joueur" src="./img/imagetestavatar.jpeg">
-                                <p class="pseudo-joueur">@zozo404</p>
-                            </div>
-                            <div class="div-numero">
-                                <p class="font-xbones"><b>3 ème</b></p>
-                            </div>
-                            <div class="div-or">
-                                <p><b>15485</b><br> pièces d'or</p>
-                            </div>
-                            <div class="div-jeux">
-                                <a href="">
-                                    <img src="./img/samplegame.png" alt="img jeu ">
-                                </a>
-                                <a href="">
-                                    <img src="./img/samplegame.png" alt="img jeu ">
-                                </a>
-                                <a href="">
-                                    <img src="./img/samplegame.png" alt="img jeu ">
-                                </a>
-                            </div>
-                        </div>
+                        <?php
+                        endforeach;
+                        ?>
+                        
                         
 
 
